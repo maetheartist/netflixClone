@@ -1,0 +1,27 @@
+.btn {
+    border: none;
+    outline: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .small-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  .btn-lg {
+    background-color: gold;
+    padding: 10px 30px;
+  }
+  
+  .btn-search {
+    background-color: teal;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+  

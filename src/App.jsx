@@ -1,13 +1,23 @@
-import React, { Component } from 'react'
+import { Component } from "react";
+// import Navbar from "./component/navbar";
+import Header from "./component/header/Header";
+import Footer from "./component/footer/Footer";
+import Movies from "./component/movies/Movies";
 
 export default class App extends Component {
   constructor() {
     super();
-    this.state ={}
+    this.state = {};
   }
+
   render() {
     return (
-      <div>App</div>
-    )
+      <div className="app">
+        {/* <Navbar /> */}
+        <Header />
+        <Movies />
+        <Footer />
+      </div>
+    );
   }
 }

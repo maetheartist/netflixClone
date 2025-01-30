@@ -1,0 +1,9 @@
+.movie {
+    flex-basis: 18%;
+    border: 3px solid white;
+  }
+  
+  .movie img {
+    width: 100%;
+  }
+  

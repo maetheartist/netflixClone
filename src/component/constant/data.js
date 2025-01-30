@@ -133,7 +133,7 @@ export const navigationLink = [
     { id: 9, text: "Account", href: "#" },
     { id: 10, text: "Ways to watch", href: "#" },
     { id: 11, text: "Corporate Information", href: "#" },
-    { id: 12, text: "Only on Netflix", href: "#" },
+    { id: 12, text: "Only on ZT Movies", href: "#" },
     { id: 13, text: "Media Center", href: "#" },
     { id: 14, text: "Terms of Use", href: "#" },
     { id: 15, text: "Contact Us", href: "#" },

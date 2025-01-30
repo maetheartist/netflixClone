@@ -1,5 +1,5 @@
 import { Component } from "react";
-// import Navbar from "./component/navbar";
+import Navbar from "./component/navbar/Navbar";
 import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
 import Movies from "./component/movies/Movies";
@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
-        {/* <Navbar /> */}
+       <Navbar /> 
         <Header />
         <Movies />
         <Footer />

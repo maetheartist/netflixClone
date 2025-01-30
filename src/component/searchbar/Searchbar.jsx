@@ -9,22 +9,23 @@ export default class Searchbar extends Component {
     };
   }
 
+  handleChange = (event) => {
+    const searchString = event.target.value.toLowerCase();
+    this.setState({ searchQuery: searchString });
+
+    // Call the parent function to update search state in Movies
+    this.props.onSearchChange(searchString);
+  };
+
   render() {
-    console.log(this.state.searchQuery);
     return (
-      // <div>
       <input
         type="search"
         className="search-input"
-        placeholder="search movies"
-        onChange={(event) => {
-          const searchString = event.target.value;
-          this.setState(() => {
-            return { searchQuery: searchString };
-          });
-        }}
+        placeholder="Search movies..."
+        value={this.state.searchQuery}
+        onChange={this.handleChange}
       />
-      // </div>
     );
   }
 }

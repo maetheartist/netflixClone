@@ -14,8 +14,8 @@ export default class Movie extends Component {
         <div className="movie-image">
           <img src={this.props.item.Poster} alt="picture of movie" />
         </div>
-        <h3 className="movie-title"> {this.props.item.name}</h3>
-        <h4 className="movie-year">{this.props.item.username}</h4>
+        <h3 className="movie-title"> {this.props.item.Title}</h3>
+        <h4 className="movie-year">{this.props.item.Year}</h4>
       </div>
     );
   }
